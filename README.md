@@ -19,3 +19,11 @@
 ### Setup local cache
 
 ### Set-up view
+
+### Emoji
+
+We can copy and paste Emoji Icon to dashboard/Chart easily
+
+https://emojikeyboard.org/
+
+
