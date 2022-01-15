@@ -42,7 +42,13 @@
 - Copy from local to AWS: 
 - Copy file asset to asset of Superset:
 
-`cp bic-favicon.png bic-logo-6.png /home/ec2-user/repos/venv/lib/python3.8/site-packages/superset/static/assets`
+`cp bic-favicon.png bic-logo-6.png cover-banking.gif cover-banking-2.gif /home/ec2-user/repos/venv/lib/python3.8/site-packages/superset/static/assets/images`
+
+- File template welcome html:
+
+`cp public_welcome.html /home/ec2-user/repos/venv/lib/python3.8/site-packages/superset/templates/superset`
+
+**Run system**
 
 `export SUPERSET_CONFIG_PATH=superset_config.py`
 
