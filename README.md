@@ -15,6 +15,7 @@
 - Create virtual environment & activate it
 
 `python3.8 -m venv venv`
+
 `. venv/bin/activate`
 
 - Install all library Python required by Supserset: `pip install --no-index --find-links ./superset-redhat/ apache-superset`
@@ -22,6 +23,7 @@
 - Run superset
 
 `superset init`
+
 `superset fab create-admin`
 
 **Attention**: When running superset in host, add parameter `-h 0.0.0.0` when running
@@ -43,6 +45,7 @@
 `cp bic-favicon.png bic-logo-6.png /home/ec2-user/repos/venv/lib/python3.8/site-packages/superset/static/assets`
 
 `export SUPERSET_CONFIG_PATH=superset_config.py`
+
 `superset run -h 0.0.0.0 -p 8088 --with-threads --reload --debugger`
 
 ## Install Python3.8
