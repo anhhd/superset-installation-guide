@@ -70,10 +70,6 @@
 
 `Row level security` >> Add data access >> `column = '{{current_username()}}'`
 
-### Setup local cache
-
-### Set-up view
-
 ### Emoji
 
 We can copy and paste Emoji Icon to dashboard/Chart easily
