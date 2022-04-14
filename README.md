@@ -62,6 +62,12 @@
 
 - Add favicon & icon
 - Give access to directory
+- Allow export to CSV with UTF-8 character
+
+```
+# UTF 8 csv
+CSV_EXPORT = {"encoding": "utf_8_sig", "sep": ";"}
+```
 
 ## Other tricks
 
