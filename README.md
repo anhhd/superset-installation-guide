@@ -69,6 +69,22 @@
 CSV_EXPORT = {"encoding": "utf_8_sig", "sep": ";"}
 ```
 
+- Allow connect directly with sqlite db: Modify connection
+
+```
+PREVENT_UNSAFE_DB_CONNECTIONS = False
+```
+
+Connection to sqlite DB, which is very helpful if Superset runs with SQLite database
+
+```
+# Windows
+sqlite:///C:\Users\user\.superset\superset.db
+# Linux
+sqlite:////user/.superset/superset.db
+```
+
+
 ## Other tricks
 
 ### Add favicon in markdown of dashboard: add fa-icon as in html
