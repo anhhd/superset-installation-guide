@@ -12,6 +12,9 @@
 **In the offline machine**
 
 - Install Python 3.8+
+
+For reference: [https://www.explinux.com/2022/06/how-to-install-python-3-8-on-rhel-7-9.html](https://www.explinux.com/2022/06/how-to-install-python-3-8-on-rhel-7-9.html)
+
 - Create virtual environment & activate it
 
 `python3.8 -m venv venv`
