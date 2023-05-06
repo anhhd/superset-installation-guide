@@ -101,4 +101,9 @@ We can copy and paste Emoji Icon to dashboard/Chart easily
 
 https://emojikeyboard.org/
 
+## Other bug
+
+Could not find Flask
+
+>> export FLASK_APP=superset
 
